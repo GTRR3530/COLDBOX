@@ -1,2 +1,23 @@
-# COLDBOX
-This project is a vulnerable cold box environment designed for cybersecurity learning and practice. It simulates real-world security flaws in a cold storage system, allowing users to test, analyze, and exploit vulnerabilities in a safe lab setup. The project is intended for hands-on practice in penetration testing and defensive security.
+#COMMANDS
+
+nmap -p -sV <IP>
+
+
+gobuster dir -u http://<IP> -w wordlist.txt
+dirb http://<IP>
+
+nikto -h http://<IP>
+
+sqlmap -u "<URL>" --dbs
+
+hydra -l user -P passwords.txt <IP> ssh
+
+nc -lvnp <port>
+nc <IP> <port>
+
+whoami
+id
+uname -a
+
+sudo -l
+find / -perm -4000 2>/dev/null
