@@ -21,3 +21,5 @@ uname -a
 
 sudo -l
 find / -perm -4000 2>/dev/null
+
+![image alt](https://github.com/GTRR3530/COLDBOX/blob/47df675b1503df74e29fe794693f6244328d55f9/Screenshot%20(8).png)
